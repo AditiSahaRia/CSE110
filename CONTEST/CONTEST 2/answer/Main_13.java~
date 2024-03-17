@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main_13{
+    public static void main(String[] args){
+       Scanner sc = new Scanner(System.in); 
+       String s = sc.nextLine();
+       
+       if(s.charAt(s.length)&1)
+         System.out.println("Case #"+": Odd");
+       else
+         System.out.println("Case #"+": Even");
+    }
+}

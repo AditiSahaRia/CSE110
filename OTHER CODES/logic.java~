@@ -1,0 +1,18 @@
+public class logic{
+  public static void main(String [] args){
+    
+    int x=300;
+    while(x>=0){
+      
+      remainder=x%10;
+      System.out.println(remainder);
+      
+      x=x/10;
+    
+    }
+  
+  
+  }
+
+
+}

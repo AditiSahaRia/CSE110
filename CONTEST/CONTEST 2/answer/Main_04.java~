@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main_04{
+  public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    int N = sc.nextInt();
+    if(N==0)
+      System.our.println("Zero");
+    else if(N>0)
+      System.our.println("Postive Integer");
+    else
+      System.our.println("Negative Integer");
+  
+  }
+
+}

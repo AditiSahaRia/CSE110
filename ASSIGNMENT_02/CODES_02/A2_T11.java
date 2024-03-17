@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class A2_T11{
+  public static void main(String [] args){
+    Scanner sc = new Scanner (System.in);
+    System.out.println("Please enter number of students");
+    int numberOfStudent = sc.nextInt();
+    int n = numberOfStudent;
+   
+    int [] mark = new int [n];
+    for(int count=0; count<mark.length; count++){
+      
+      System.out.println("Please enter marks of the student");
+      
+      mark[count] = sc.nextInt();
+      
+    
+    }
+    
+    for(int count=0; count<mark.length; count++){
+      
+      System.out.println(mark[count]);
+      
+    
+    }
+  
+  }
+
+}

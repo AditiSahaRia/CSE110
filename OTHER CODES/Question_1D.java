@@ -1,0 +1,20 @@
+public class Question_1D{
+  public static void main(String[] args){
+    int number=18;
+    while(number<=63){
+      if(number%2==1){
+        System.out.print(number*(-1));
+        if(number==63){
+          System.out.print("");
+        }
+        else{
+          System.out.print(",");
+        }
+      }
+      else{
+        System.out.print(number+",");
+      }
+      number=number+9;
+    }
+  }
+}

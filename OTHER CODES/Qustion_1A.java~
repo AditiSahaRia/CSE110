@@ -1,0 +1,9 @@
+public class Qustion_1A{
+  public static void main(String [] args){
+    int first=24;
+    while(first>=-6){
+      int sum=first-6;
+      System.out.print(sum);
+    }
+  }
+}

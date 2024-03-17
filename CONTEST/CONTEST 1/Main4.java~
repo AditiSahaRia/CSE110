@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Main4{
+  public static void main(String [] args){
+    Scanner sc = new Scanner (System.in);
+    int T = sc.nextInt();
+    int salary = 0;
+    for(int count=0;count<T;count++){
+      long A = sc.nextLong();
+      long B = sc.nextLong();
+      long C = sc.nextLong();
+      if(A>B&&A<C)
+        salary = A;
+      else if(B>A&&B<C)
+        salary = B;
+      else if(C>A&&C<B)
+        salary = C;
+        
+    }
+    
+    
+  }
+}

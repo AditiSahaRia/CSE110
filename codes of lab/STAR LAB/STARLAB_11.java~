@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class STARLAB_11{
+  public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Please enter line number");
+    int line = sc.nextInt();
+    for(int i=line; i>=0; i--){
+      for(int j=0; j<i-1; j++){
+        System.out.print(" ");
+      }
+      for(int k=i; k>0; k++){
+        System.out.print(k);
+      }
+      System.out.println();
+    }
+  
+  }
+
+}

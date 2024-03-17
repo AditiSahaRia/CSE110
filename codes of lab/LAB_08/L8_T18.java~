@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class L8_T18{
+  public static void main(String [] args){
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Please enter row number");
+    int row = sc.nextInt();
+    for(int i=0; i<row; i++){
+      
+      for(int j=0; j<row-i-1; j++){
+        
+        System.out.print(" ");
+      
+      }
+      
+      if(i==0 || i==1 || i==row-1){
+        
+        for(int k=row-i; k<row; k++){
+          
+          System.out.print("*");
+        
+        }
+      
+      }
+    
+    }
+  
+  }
+
+}

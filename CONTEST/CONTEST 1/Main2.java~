@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main2{
+  public static void main(String [] args){
+    Scanner sc = new Scanner (System.in);
+    long T = sc.nextLong();
+    long dif = 0;
+    long count = 0;
+    while(sc.nextInt){
+      long A = sc.nextInt();
+      long B = sc.nextInt();
+      dif = B-A;
+      System.out.println(dif);
+      count++;
+    }
+    
+  }
+}
